@@ -64,3 +64,18 @@ button:hover{
     align-items: center;
     justify-content: center;
 }
+@media (max-width: 280px) {
+    .calculator {
+        padding: 0.5rem;
+    }
+    
+    .input {
+        height: 3rem;
+        font-size: 1.25rem;
+    }
+    
+    button {
+        padding: 0.25rem;
+        font-size: 0.875rem;
+    }
+}
